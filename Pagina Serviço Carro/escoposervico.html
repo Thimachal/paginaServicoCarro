@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escopo</title>
+</head>
+<body>
+    <form action="" id="meu-escopo">
+        <fieldset>
+            <legend>Identificação da Solicitação</legend>
+            <label for="SC">Número da SC</label>
+            <input id="name" type="text" name="name">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Prioridade</legend>
+
+                <input type="radio" name="opcao" value="normal">Normal
+                <input type="radio" name="opcao" value="normal">Alto
+                <input type="radio" name="opcao" value="normal">Emergencial
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Solicitante</legend>
+                <label for="name">Seu Nome</label>
+                <input id="name" type="text" name="name">
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Filial</legend>
+            <input type="radio" name="filial" value="normal">01 Matriz
+            <input type="radio" name="filial" value="normal">02 Salvador
+            <input type="radio" name="filial" value="normal">03 Camaçari
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Descrição do Serviço</legend>
+                <textarea rows="10" cols="40" maxlength="500"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Data Prevista para Execução do Serviço</legend>
+            <input type="date">
+        </fieldset>
+        <br>    
+            <script type="text/javascript">
+            function aviso(){
+                alert("Escopo Salvo com Sucesso!!");
+               // document.writeln("Escopo Salvo com Sucesso tipo 2!!");
+                }
+            </script>
+            <button onclick="aviso();">Enviar</button>
+   </form>    
+</body>
+</html>

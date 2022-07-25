@@ -1,0 +1,31 @@
+h2{
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+/*comentários de css*/
+/*Sistema de cores*/
+
+.nome{
+    color: orange;
+}
+.hexa {
+    color: #6a406a;
+}
+.rgba {
+    color: rgba(17, 170, 214, 1);
+}
+
+/*classes de background*/
+.div-background{
+    min-height: 300px;
+}
+h1{
+    text-align: center;
+}
+/*fontes*/
+.family{
+    color: #6a6;
+    font-family: Calibri;
+    font-size: 30px;
+}
